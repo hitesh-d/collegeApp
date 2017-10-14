@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+@import '~@angular/material/theming';
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+ /* @import 'college-app-theme'; */
+
+body{margin: 0;  padding:0;}
+
+/* variables */
+$basic-color: #ffffff;
+$primary-color: #3f51b5;
+$ascent-color: #ff4081;
+$warn-color: #f44336;
+$disabled-color: rgba(0,0,0,.38);
+
+
+/* ---------------------------------------------------------*/
+
+.topNavBtn{ margin: 0 10px !important;}
+.marLeft20{ margin-left: 20px !important;}
+.studentList{ width: 100%;}
+
+.studentListLeft{ float: left; width: calc(30% - 2px); height: calc(100vh - 64px); border-right:2px dotted $primary-color }
+.studentListRight{float: left; width: 70%;}
+.studentBox{ padding: 10px; border-bottom:1px dotted $primary-color}
